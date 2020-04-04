@@ -36,8 +36,8 @@ class Navbar extends React.Component {
                     <ul className="navbar-nav ml-auto">
 
                         {/* <!-- The links of our navbar --> */}
-                        <li className={`nav-item ${this.isActive("bio") ? "active":""}`}>
-                            <a className="nav-link" href="bio">About Me <span className="sr-only">(current)</span></a>
+                        <li className={`nav-item ${this.isActive("about") ? "active":""}`}>
+                            <a className="nav-link" href="about">About Me <span className="sr-only">(current)</span></a>
                         </li>
 
                         <li className={`nav-item ${this.isActive("portfolio") ? "active":""}`}>

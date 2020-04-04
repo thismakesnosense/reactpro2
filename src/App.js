@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar/index';
 import "./pages/Home.css";
 import Contact from "./pages/Contact"
+import About from "./pages/About"
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     <Router>
         <Switch>
           <Route path="/about">
-            {/* <About /> */}
+            <About />
           </Route>
           <Route path="/contact">
             <Contact />
