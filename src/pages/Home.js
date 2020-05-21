@@ -47,10 +47,10 @@ function Home() {
 
           <div className="col-md-6 col-sm-12">
             <div className="work">
-              <div style={{backgroundImage:"url('../assets2/game.PNG')"}} className="work-image">
+              <div style={{backgroundImage:"url('../assets2/edu.PNG')"}} className="work-image">
               </div>
 
-              <a href="batgame.html"><button className="btn btn-primary mt-2">Shoot Bats</button></a>
+              <a href="https://edu-coin.herokuapp.com/"><button className="btn btn-primary mt-2">Edu Coin</button></a>
             </div>
           </div>
         </div>
